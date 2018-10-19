@@ -1,0 +1,13 @@
+@font-face {
+  font-display: swap;
+  font-family: 'ROBOTO MEDIUM FONT';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ROBOTO MEDIUM FONT'), url('./fonts/roboto/Roboto-Medium.ttf') format('ttf');
+}
+
+h1 {
+  font-family: 'ROBOTO MEDIUM FONT', sans-serif;
+  font-weight: 200;
+  color: #0ccac4;
+}

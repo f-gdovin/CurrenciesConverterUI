@@ -1,0 +1,21 @@
+.modal-component {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-component-close {
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.modal-component-close:hover {
+    color: gray;
+    cursor: pointer;
+}
