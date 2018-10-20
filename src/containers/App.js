@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { HashRouter } from 'react-router-dom';
 import {
     requestTop,
     requestUsage,
@@ -55,9 +54,7 @@ const mapDispatchToProps = dispatch => {
 class App extends Component {
     render() {
         return (
-            <HashRouter>
-                <MainPage { ...this.props }/>
-            </HashRouter>
+             <MainPage { ...this.props }/>
         )
     }
 }

@@ -15,5 +15,5 @@ app.get('/ping', (req, res) => res.send('pong'));
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'build', 'index.html')));
 
 app.listen(port, () => {
-    console.log(`TransVoca UI production build served at ${port}`)
+    console.log(`CurrenciesConverter UI production build served at ${port}`)
 });

@@ -7,7 +7,7 @@ class Header extends Component {
     };
 
     render() {
-        return <h1 className='f1'>TransVoca</h1>;
+        return <h1 className='f1'>Currencies Converter</h1>;
     }
 }
 export default Header;

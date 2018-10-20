@@ -13,7 +13,7 @@ import { STATS_TOP_API, STATS_USAGE_API } from '../services/api';
 export const requestTop = (limit = 10) => dispatch => {
     dispatch({type: REQUEST_STATS_TOP_PENDING});
     fetch(STATS_TOP_API, {
-        body: JSON.stringify(limit),
+        body: JSON.stringify({ limit: limit }),
         headers: {
             'Content-Type': 'application/json',
         },

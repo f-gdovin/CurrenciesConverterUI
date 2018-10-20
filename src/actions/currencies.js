@@ -22,7 +22,7 @@ export const requestCurrenciesList = () => dispatch => {
 };
 
 export const requestCurrenciesConvert = (convertRequest) => dispatch => {
-    dispatch({ type: REQUEST_CURRENCIES_CONVERT_PENDING });
+    dispatch({ type: REQUEST_CURRENCIES_CONVERT_PENDING, payload: convertRequest });
     fetch(CURRENCIES_CONVERT_API, {
         body: JSON.stringify(convertRequest),
         headers: {

@@ -1,6 +1,6 @@
 {
-  "short_name": "TransVoca",
-  "name": "TransVoca - the app for advanced language learning",
+  "short_name": "CurrenciesConverter",
+  "name": "Currencies Converter - check how much every currency is right now",
   "icons": [
     {
       "src": "favicon.ico",

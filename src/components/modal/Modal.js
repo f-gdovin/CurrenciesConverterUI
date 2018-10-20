@@ -14,6 +14,7 @@ class Modal extends Component {
 
     componentDidMount() {
         modalRoot.appendChild(this.el);
+        this.props.onOpen();
     }
 
     componentWillUnmount() {
